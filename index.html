@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imperativa - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- photoswipe link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.css">
+  <link rel="stylesheet" href="./assets/css/photoswipe-dynamic-caption-plugin.css">
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Muhammad Luqman" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Muhammad Luqman">Muhammad Luqman</h1>
+
+          <p class="title">System Administrator/Data Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:im.imperativa@gmail.com" class="contact-link">im.imperativa@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Education</p>
+
+              <a href="https://stis.ac.id/hal/32/program-studi-div-komputasi-statistik"
+                class="contact-link">Computational Statistics</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="code-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Language</p>
+
+              <a href="" class="contact-link">SQL, Python, R</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Jakarta, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/imperativa/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/im-perativa/" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            System Administrator/Data Engineer graduated from Computational Statistics Program under Statistics
+            Indonesia. I was given the opportunity to directly work in the Campus as Big Data/Machine Learning
+            Infrastructure Engineer, Data Scientist, and System Administrator in both Linux and Windows.
+          </p>
+
+          <p>
+            I have worked on several Data Engineer/Data Science
+            project with Statistics Indonesia and other government institution, resulted in publication on National and
+            International media.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-data.svg
+                " alt="data icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  From web scraping, data analysis, machine learning, to dashboard visualization.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-server.svg" alt="server icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Infrastructure Engineer</h4>
+
+                <p class="service-item-text">
+                  Google cloud infrastructure, server virtualization, backup solution, remote computer
+                  laboratory
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-database.svg" alt="database icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Engineering</h4>
+
+                <p class="service-item-text">
+                  Google Cloud Engineer for cloud project and on premise campus infrastructure for student’s thesis
+                  focused in big data and machine learning.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-web.svg" alt="web icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">System Administrator</h4>
+                <p class="service-item-text">
+                  Administrator for dozens of web and database hosting (Apache, Nginx, MySQL and PostgreSQL) on Linux
+                  and Windows server
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-automation.png" alt="automation icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IT Automation</h4>
+                <p class="service-item-text">
+                  Automate repeatable processes and reduce manual labor for various IT Task
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://statistics.coconutcommunity.org/" target="_blank">
+                <img src="./assets/images/client-apccsec.png" alt="International Coconut Community"
+                  title="International Coconut Community">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://volantis.io/" target="_blank">
+                <img src="./assets/images/client-volantis.png" alt="Volantis.io" title="Volantis.io">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://bps.go.id/" target="_blank">
+                <img src="./assets/images/client-bps.png" alt="Statistics Indonesia" title="Statistics Indonesia">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://bigdata.stis.ac.id/" target="_blank">
+                <img src="./assets/images/client-stis.png" alt="STIS Polytechnic of Statistics"
+                  title="STIS Polytechnic of Statistics">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://pse.litbang.pertanian.go.id/">
+                <img src="./assets/images/client-kementan.png" alt="Ministry of Agriculture Indonesia"
+                  title="Ministry of Agriculture Indonesia">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://badanbahasa.kemdikbud.go.id/" target="_blank">
+                <img src="./assets/images/client-kemdikbud.png"
+                  alt="Ministry of Education, Culture, Research, and Technology Indonesia"
+                  title="Ministry of Education, Culture, Research, and Technology Indonesia">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">STIS Polytechnic of Statistics &nbsp;<small>&nbsp;3.58
+                  GPA&nbsp;</small></h4>
+
+              <span>2014 — 2018</span>
+
+              <p class="timeline-text">
+                Bachelor of Applied Science, Computational Statistics Program
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Engineer &nbsp;<small>&nbsp;Indonesia Language Development and
+                  Fostering Agency&nbsp;</small></h4>
+
+              <span>2022 — now</span>
+
+              <p class="timeline-text">Mobile data collection and data processing system for national/local language
+                research
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Infrastructure Engineer &nbsp;<small>&nbsp;STIS Polytechnic of
+                  Statistics&nbsp;</small>
+              </h4>
+
+              <span>2021 — now</span>
+
+              <p class="timeline-text">
+              <ul>
+                <li class="timeline-detail">Distributed server virtualization solution</li>
+                <li class="timeline-detail">Campus infrastructure and environment for student’s thesis focussd in
+                  Machine Learning/Big Data
+                </li>
+                <li class="timeline-detail">Remote computer laboratory system</li>
+              </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">System Administrator &nbsp;<small>&nbsp;STIS Polytechnic of
+                  Statistics&nbsp;</small></h4>
+
+              <span>2020 — now</span>
+
+              <p class="timeline-text">
+              <ul>
+                <li class="timeline-detail">Database administrator for College Admission System</li>
+                <li class="timeline-detail">Domain hosting manager using Virtualmin with dozens of thesis website</li>
+                <li class="timeline-detail">Active directory and GPO manager</li>
+              </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Engineer &nbsp;<small>&nbsp;Indonesian Center for Agricultural
+                  Socioeconomic and Policy Studies&nbsp;</small></h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">Mobile data collection system for PATANAS research</p>
+
+            </li>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Scientist/Data Engineer &nbsp;<small>&nbsp;Statistics
+                  Indonesia&nbsp;</small></h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+              <ul>
+                <li class="timeline-detail">
+                  Data warehouse engineer with Google BigQuery
+                </li>
+                <li class="timeline-detail">
+                  Twitter campaign analysis for Statistics Indonesia Population Census</li>
+                <li class="timeline-detail">
+                  Trainer for ASEAN Regional Workshop on Big Data for Enhancing Official Statistics
+                </li>
+                <li class="timeline-detail">
+                  Web scraper and data analyst for research project of E Commerce and Travel Agency in Indonesia
+                </li>
+              </ul>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Scientist/Data Engineer &nbsp;<small>&nbsp;STIS Polytechnic of
+                  Statistics&nbsp;</small></h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+              <ul>
+                <li class="timeline-detail">
+                  College admission data analysis and dashboard Visualization
+                </li>
+                <li class="timeline-detail">
+                  Teaching Assistant for Linear Algebra, Introduction to Probability Theory and Big Data
+                </li>
+                <li class="timeline-detail">
+                  Deploy and managing campus website for Big Data projects
+                </li>
+              </ul>
+              </p>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer &nbsp;<small>&nbsp;International Coconut
+                  Community&nbsp;</small></h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">Data entry and dynamic visualization/tabulation website developer for
+                International Coconut
+                Community
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Science</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+              <h6 class="h6">Python, R, Tableau, Google Data Studio</h6>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Infrastructure Engineer</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+              <h6 class="h6">Linux/Windows Server Virtualization, Web Server(Apache/Nginx), Database(MySQL, PostgreSQL),
+                Google Cloud Platform
+              </h6>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Engineer</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+              <h6 class="h6">Web Crawling/Scraping, ETL, SQL, Big Query</h6>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Developer</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+              <h6 class="h6">PHP, JQuery
+              </h6>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Click to view portfolio description and live demo URL
+          </p>
+        </section>
+
+
+        <section class="projects">
+
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Infrastructure Engineer</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>System Administrator</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Data Science</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Data Engineer</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>IT Automation</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Infrastructure Engineer</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>System Administrator</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Data Science</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Data Engineer</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>IT Automation</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list" id="project-list">
+
+            <li class="project-item active" data-filter-item data-category="infrastructure engineer">
+              <a href="./assets/images/project-ovirt.jpg" data-pswp-width="1920" data-pswp-height="1080"
+                target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-ovirt.jpg" alt="ovirt" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Distributed Server Virtualization</h3>
+
+                <p class="project-category">Infrastructure Engineer</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    On premise distributed server virtualization solution using open source <strong>oVirt</strong>
+                    project. The
+                    solution built using three bare metal server (RedHat Linux), two network attached storage
+                    (NFS/iSCSI), terabytes of RAM and storage. The ecosystem is provided with automatic backup solution
+                    for choosen out of dozens VM hosted there to provide quick disaster recovery scenario.
+                    <br><br>
+                    Integrated with Active Directory, user can automatically login to Windows VM created there.
+                  </p>
+                </section>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="./assets/images/project-nlp.mp4" data-pswp-width="1920" data-pswp-height="1080"
+                data-pswp-type="video" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-nlp.gif" alt="nlp" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Duplicate Questions Detection System</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Detection of duplicate questions in a Q&A system is challenging especially in Bahasa
+                    Indonesia. The degree of overall similarity of text data in the
+                    form of a question can be seen from the similarity of the frequency of words used (textual
+                    component), the similarity of the word meanings (semantic component) or the similarity of core issue
+                    (topic component).
+                    <br><br>
+                    In this project, I built a new model powered by <strong>Gensim (Python)</strong> which combines the
+                    similarity score for each component above.
+                    Experimental results show that this model get an increase recall-rate for up to <strong>12%</strong>
+                    compared to
+                    their baseline.
+                  </p>
+                </section>
+
+                <a href="https://148261.student.stis.ac.id" target="_blank" class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data engineer">
+              <a href="./assets/images/project-bigquery.mp4" data-pswp-width="1920" data-pswp-height="1080"
+                data-pswp-type="video" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-bigquery.gif" alt="bigquery" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BigQuery Data Warehouse</h3>
+
+                <p class="project-category">Data Engineer</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Managing millions of data in <strong>BigQuery</strong> which is a serverless, highly-scalable,
+                    and cost-effective cloud data warehouse with data collected from multiple sources, partitioned to
+                    optimize query process, and visualized using Tableau/Google Data Studio
+                  </p>
+                </section>
+
+                <a href="https://bigdata.stis.ac.id/about-us/" target="_blank" class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="./assets/images/project-kepler.mp4" data-pswp-width="1920" data-pswp-height="1080"
+                data-pswp-type="video" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-kepler.gif" alt="kepler" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Map Visualization of BPJS Indonesia</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Visualizing the distribution of healthcare facilities in Indonesia with tens of thousands scraped
+                    data from Social
+                    Security Agency of Health in Indonesia. The map consists of two layers which shows the distribution
+                    of general healthcare facilities (heatmap) and hospitals (bar).
+                    <br><br>
+                    While the distribution of general healthcare facilities is relatively equal, this map shows that
+                    there are still inequality in which better hospitals with greater infrastructure are still mostly
+                    located in Java Island.
+                  </p>
+                </section>
+
+                <a href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/t4bajrixn7hnh69/keplergl_railvg8.json"
+                  target="_blank" class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data engineer">
+              <a href="./assets/images/project-scraper.webm" data-pswp-width="1920" data-pswp-height="1080"
+                data-pswp-type="video" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-scraper.gif" alt="web scraper" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web Crawling/Web Scraping</h3>
+
+                <p class="project-category">Data Engineer</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Developing web scraper to scrape millions of data from various website such as travel agency,
+                    online shopping, news and
+                    social media using <strong>Scrapy (Python)</strong> or <strong>Selenium</strong>. Depending of the
+                    complexity and website
+                    architecture, the program can collect hundreds or even thousands of data per minute while still
+                    respecting source website policy.
+                  </p>
+                </section>
+                <a href="https://github.com/im-perativa/public_crawler" target="_blank" class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="infrastructure engineer">
+              <a href="./assets/images/project-remotelab.jpg" data-pswp-width="1920" data-pswp-height="1080"
+                target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-remotelab.jpg" alt="remote computer laboratory" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Remote Computer Laboratory</h3>
+
+                <p class="project-category">Infrastructure Engineer</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Deploying campus remote computer laboratory using <strong>Apache Guacamole</strong> in response to
+                    Covid-19 Safety Protocol. Using this project, both student and lecturer can access the computer
+                    remotely
+                    from their browser without installing any plugins/software. The lab consist of ~80 computers with
+                    Active Directory integration.
+                  </p>
+                </section>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="./assets/images/project-tableau.mp4" data-pswp-width="1920" data-pswp-height="1080"
+                data-pswp-type="video" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-tableau.gif" alt="e commerce research" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Data Visualization with Tableau</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Visualizing the growth and distribution of E commerce in Indonesia using millions of scraped data of
+                    online shop
+                    website from 2015 to 2019
+                    using <strong>Tableau</strong> and <strong>BigQuery</strong>.
+                  </p>
+
+                </section>
+                <a href="https://public.tableau.com/app/profile/bigdata.stis/viz/distribusionlineshop/ImprovedDashboard"
+                  target="_blank" class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="infrastructure engineer">
+              <a href="./assets/images/project-gcp.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-gcp.jpg" alt="gcp" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Application Hosting on GCP</h3>
+
+                <p class="project-category">Infrastructure Engineer</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Deploy and manage college admission system on <strong>Google Cloud Platfrom</strong> using Google
+                    Compute
+                    Engine and Google Cloud SQL to achieve maximum availability.
+                  </p>
+                </section>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="./assets/images/project-twitter.png" data-pswp-width="1920" data-pswp-height="1080"
+                target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-twitter.png" alt="twitter" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Twitter Campaign Analysis</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Data analysis of twitter by looking at the number of tweet related to specific hashtag or query over
+                    time. By looking at the distribution we can conclude whether a social media campaign is successful
+                    or not.
+                  </p>
+                </section>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="./assets/images/project-datastudio.webm" data-pswp-width="1920" data-pswp-height="1080"
+                data-pswp-type="video" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-datastudio.gif" alt="data studio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Google Data Studio Visualization</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Visualization Dashboard of <a
+                      href="https://datastudio.google.com/reporting/44b4734d-1c9c-4235-a75a-945005cadd93"
+                      target="_blank">Data Center comparation</a> and <a
+                      href="https://datastudio.google.com/reporting/3d1859d0-1bf7-4d86-bc05-bc78588273d9"
+                      target="_blank">Zoom Utilization in
+                      Classroom</a> built using <strong>Google Data Studio</strong>.
+                  </p>
+
+                </section>
+                <a href="https://datastudio.google.com/reporting/44b4734d-1c9c-4235-a75a-945005cadd93" target="_blank"
+                  class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="./assets/images/project-dash.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-dash-thumbnail.jpg" alt="dash" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web Dashboard (Dash Python)</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Visualization Dashboard from hundreds of thousands of E Commerce Data built using <strong>Dash
+                      (Python)</strong>.
+                  </p>
+                </section>
+                <a href="https://ecommerce-crawling.herokuapp.com/" target="_blank" class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="system administrator">
+              <a href="./assets/images/project-virtualmin.jpg" data-pswp-width="1920" data-pswp-height="1080"
+                target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-virtualmin.jpg" alt="virtualmin" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Domain Hosting Manager</h3>
+
+                <p class="project-category">System Administrator</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Managing hundreds of student/lecturer/campus web and database using open source virtual web
+                    hosting
+                    control panel <strong>Virtualmin</strong>. Each domain can specify whether PHP, NodeJS, Python,
+                    etc as their backend language and
+                    pick database (MySQL, PostgreSQL, etc) needed without interfering each other. The system also
+                    provide daily automatic domain backup and SSL configuration for easy web hosting for student and
+                    lecturer.
+                  </p>
+
+                </section>
+                <a href="https://student.stis.ac.id" target="_blank" class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="it automation">
+              <a href="./assets/images/project-automation.mp4" data-pswp-width="1920" data-pswp-height="1080"
+                data-pswp-type="video" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-automation.gif" alt="dash" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web Testing Automation</h3>
+
+                <p class="project-category">IT Automation</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Automation of college admission website testing using <strong>Selenium</strong> to simulate user
+                    action and capturing server performance. The program simulates the user login, do the admission test
+                    and then check their results. This testing proves important to simulates real life condition and
+                    load for a server.
+                  </p>
+                </section>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="./assets/js/photoswipe.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
